@@ -1,0 +1,15 @@
+.pageTitle {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--black-100);
+    margin-bottom: 4rem;
+
+    @media (max-width: 1024px) {
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}

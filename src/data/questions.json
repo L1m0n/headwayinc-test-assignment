@@ -1,0 +1,294 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "level": 1,
+    "question": "How old your elder brother was 10 years before you was born, mate?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "10 years"
+      },
+      {
+        "id": "B",
+        "text": "11 years"
+      },
+      {
+        "id": "C",
+        "text": "12 years"
+      },
+      {
+        "id": "D",
+        "text": "14 years"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "level": 2,
+    "question": "What is the chemical symbol for gold?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "Ag"
+      },
+      {
+        "id": "B",
+        "text": "Au"
+      },
+      {
+        "id": "C",
+        "text": "Fe"
+      },
+      {
+        "id": "D",
+        "text": "Cu"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "level": 3,
+    "question": "Which of the following events happened first?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "World War I"
+      },
+      {
+        "id": "B",
+        "text": "American Civil War"
+      },
+      {
+        "id": "C",
+        "text": "World War II"
+      },
+      {
+        "id": "D",
+        "text": "Vietnam War"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "level": 4,
+    "question": "Which countries share a border with Germany?",
+    "correctAnswers": 4,
+    "options": [
+      {
+        "id": "A",
+        "text": "France"
+      },
+      {
+        "id": "B",
+        "text": "Poland"
+      },
+      {
+        "id": "C",
+        "text": "Italy"
+      },
+      {
+        "id": "D",
+        "text": "Austria"
+      },
+      {
+        "id": "E",
+        "text": "Switzerland"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "level": 5,
+    "question": "Which of these movies won the Academy Award for Best Picture?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "The Shawshank Redemption"
+      },
+      {
+        "id": "B",
+        "text": "Forrest Gump"
+      },
+      {
+        "id": "C",
+        "text": "Pulp Fiction"
+      },
+      {
+        "id": "D",
+        "text": "The Lion King"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "level": 6,
+    "question": "What is the largest planet in our solar system?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "Earth"
+      },
+      {
+        "id": "B",
+        "text": "Mars"
+      },
+      {
+        "id": "C",
+        "text": "Jupiter"
+      },
+      {
+        "id": "D",
+        "text": "Saturn"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "level": 7,
+    "question": "Who wrote the novel 'Pride and Prejudice'?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "Jane Austen"
+      },
+      {
+        "id": "B",
+        "text": "Charlotte Brontë"
+      },
+      {
+        "id": "C",
+        "text": "Emily Brontë"
+      },
+      {
+        "id": "D",
+        "text": "Mary Shelley"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "level": 8,
+    "question": "What year did World War II end?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "1943"
+      },
+      {
+        "id": "B",
+        "text": "1944"
+      },
+      {
+        "id": "C",
+        "text": "1945"
+      },
+      {
+        "id": "D",
+        "text": "1946"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "level": 9,
+    "question": "Which element has the chemical symbol 'O'?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "Osmium"
+      },
+      {
+        "id": "B",
+        "text": "Oxygen"
+      },
+      {
+        "id": "C",
+        "text": "Oganesson"
+      },
+      {
+        "id": "D",
+        "text": "Osmium"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "level": 10,
+    "question": "What is the capital of Australia?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "Sydney"
+      },
+      {
+        "id": "B",
+        "text": "Melbourne"
+      },
+      {
+        "id": "C",
+        "text": "Canberra"
+      },
+      {
+        "id": "D",
+        "text": "Brisbane"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "level": 11,
+    "question": "Which country has the largest population in the world?",
+    "correctAnswers": 2,
+    "options": [
+      {
+        "id": "A",
+        "text": "India"
+      },
+      {
+        "id": "B",
+        "text": "China"
+      },
+      {
+        "id": "C",
+        "text": "United States"
+      },
+      {
+        "id": "D",
+        "text": "Indonesia"
+      }
+    ]
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "level": 12,
+    "question": "What is the speed of light in a vacuum?",
+    "correctAnswers": 1,
+    "options": [
+      {
+        "id": "A",
+        "text": "299,792,458 m/s"
+      },
+      {
+        "id": "B",
+        "text": "300,000,000 m/s"
+      },
+      {
+        "id": "C",
+        "text": "299,792,000 m/s"
+      },
+      {
+        "id": "D",
+        "text": "300,000,000 km/h"
+      }
+    ]
+  }
+]

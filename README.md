@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Headway Inc Test Assignment
 
-## Getting Started
+Це тестове завдання для Headway Inc, створене з використанням Next.js та TypeScript.
 
-First, run the development server:
+## Вимоги
 
+- Node.js 18+ 
+- pnpm (рекомендовано) або npm
+
+## Встановлення
+
+1. Клонуйте репозиторій:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/headwayinc-test-assignment.git
+cd headwayinc-test-assignment
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Встановіть залежності:
+```bash
+pnpm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Запуск
 
-## Learn More
+### Розробка
+```bash
+pnpm dev
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Відкрийте [http://localhost:3000](http://localhost:3000) у браузері.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Збірка для продакшену
+```bash
+pnpm build
+pnpm start
+```
 
-## Deploy on Vercel
+### Лінтування
+```bash
+# Перевірка коду
+pnpm lint
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Автоматичне виправлення помилок
+pnpm lint:fix
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Тестування
+```bash
+pnpm test
+```
+
+## Технології
+
+- **Framework:** Next.js 15.4.4
+- **Language:** TypeScript
+- **Styling:** CSS Modules
+- **Linting:** ESLint + Airbnb config
+- **Testing:** Jest + React Testing Library
+- **Package Manager:** pnpm
+
+
+## Git Hooks
+
+Проект налаштований з git hooks:
+- **pre-commit:** Запускає ESLint на змінені файли
+- **pre-push:** Запускає unit тести

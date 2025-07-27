@@ -1,0 +1,10 @@
+.gameLayout {
+  display: grid;
+  grid-template-columns: 1fr 376px;
+  min-height: 100vh;
+  background: var(--black-5);
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+  }
+}

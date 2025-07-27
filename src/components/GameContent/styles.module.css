@@ -1,0 +1,15 @@
+.gameContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+  height: 100vh;
+
+  @media (max-width: 769px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 0;
+    padding: 0;
+  }
+}

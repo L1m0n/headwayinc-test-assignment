@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+
+  @media (max-width: 1024px) {
+    flex: 1;
+    align-items: end;
+  }
+}
+
+.image {
+  width: 624px;
+  height: 367px;
+
+  @media (max-width: 1024px) {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+  }
+
+  @media (max-width: 768px) {
+    width: 192px;
+    height: 113px;
+  }
+}

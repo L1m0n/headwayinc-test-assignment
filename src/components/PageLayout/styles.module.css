@@ -1,0 +1,35 @@
+.pageLayout {
+  position: relative;
+  min-height: 100vh;
+  background: var(--white-100);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
+  align-items: center;
+  z-index: 1;
+}
+
+.pageLayoutWithBackground::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--orange-5);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  z-index: -1;
+}
+
+@media (max-width: 1024px) {
+  .pageLayout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3rem 1rem;
+  }
+}
