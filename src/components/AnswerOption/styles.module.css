@@ -59,7 +59,7 @@
   }
 }
 
-answerOption :global(.stroke) {
+.answerOption :global(.stroke) {
   stroke: var(--black-40);
   transition: stroke 0.2s ease-in-out;
 }
@@ -69,7 +69,7 @@ answerOption :global(.stroke) {
   transition: all 0.2s ease-in-out;
 }
 
-:global(.outline) {
+.answerOption :global(.outline) {
   stroke: var(--black-40);
   fill: white;
   transition: all 0.2s ease-in-out;
