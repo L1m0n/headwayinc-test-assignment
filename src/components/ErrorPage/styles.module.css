@@ -1,0 +1,61 @@
+.errorContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white-100);
+}
+
+.errorContent {
+    max-width: 28rem;
+    width: 100%;
+    background: var(--white-100);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.errorIcon {
+    font-size: 3.75rem;
+    margin-bottom: 1rem;
+}
+
+.errorTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--black-100);
+    margin-bottom: 0.5rem;
+}
+
+.errorMessage {
+    color: var(--black-60);
+    margin-bottom: 1.5rem;
+}
+
+.errorActions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.errorDetails {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.errorSummary {
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: var(--black-40);
+}
+
+.errorStack {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--red-100);
+    background: var(--white-100);
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    overflow: auto;
+}
