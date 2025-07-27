@@ -25,8 +25,12 @@ export default function ErrorPage({ reset, error }: ErrorPageProps) {
         <h1 className={styles.errorTitle}>Something went wrong</h1>
         <p className={styles.errorMessage}>Something went wrong with the game. Please try again.</p>
         <div className={styles.errorActions}>
-          <Button onClick={reset}>Try Again</Button>
-          <Button onClick={handleGoHome}>Go Home</Button>
+          <Button ariaLabel="Try again" onClick={reset}>
+            Try Again
+          </Button>
+          <Button ariaLabel="Go home" onClick={handleGoHome}>
+            Go Home
+          </Button>
         </div>
         {process.env.NODE_ENV === 'development' && (
           <details className={styles.errorDetails}>

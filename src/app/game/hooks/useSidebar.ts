@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 export default function useSidebar() {
   const [isOpened, setIsOpened] = useState(true);
 
-  const toggle = () => setIsOpened(!isOpened);
-  const close = () => setIsOpened(false);
-  const open = () => setIsOpened(true);
+  const toggle = useCallback(() => setIsOpened(!isOpened), [isOpened]);
+  const close = useCallback(() => setIsOpened(false), []);
+  const open = useCallback(() => setIsOpened(true), []);
 
   useEffect(() => {
     const handleResize = () => {

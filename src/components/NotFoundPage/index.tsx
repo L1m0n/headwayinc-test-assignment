@@ -17,7 +17,9 @@ export default function NotFoundPage() {
           The page you&apos;re looking for doesn&apos;t exist.
         </p>
         <div className={styles.notFoundActions}>
-          <Button onClick={handleGoHome}>Go Home</Button>
+          <Button ariaLabel="Go home" onClick={handleGoHome}>
+            Go Home
+          </Button>
         </div>
       </div>
     </div>
