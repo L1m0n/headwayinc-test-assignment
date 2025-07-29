@@ -23,7 +23,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/headwayinc-test-assignment.git
+   git clone https://github.com/L1m0n/headwayinc-test-assignment
    cd headwayinc-test-assignment
    ```
 
